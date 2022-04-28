@@ -1,0 +1,475 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap');
+
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Lato', sans-serif;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+
+a:hover{
+    color: black;
+}
+
+                            /* offer section */
+.offer{
+    background-color: black;
+    align-items: center;
+    
+
+}
+.offer a {
+    color: white;
+   
+}
+
+.offer p{
+    text-align: center;
+    margin: 0;
+    padding-bottom: 0;
+    font-size: 15px;
+}
+
+/*-----------------------------------------NAVBAR SECTION---------------------------------*/
+
+.up-nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.up-nav button i{
+    padding-top: 4px;
+}
+
+.top-nav .up-nav .icons i{
+    /* padding: 10px; */
+    margin-right: 1rem;
+    
+}
+.search input[type=text]{ 
+   width: 120px;
+    border: none;
+    border-radius: 5px;
+}
+
+.up-nav .logo{
+    text-align: center;
+}
+
+.top-nav .down-menu {
+    padding-bottom: 0;
+
+}
+
+.top-nav .down-menu li a {
+    font-weight: 300;
+}
+
+@media (min-width: 992px) {
+    .navbar-expand-lg .navbar-nav .nav-link {
+        padding: 1rem 2em;
+        color: black;
+        margin-bottom: 0;
+    }
+
+    .navbar-expand-lg .navbar-nav .nav-link:hover{
+        background-color: rgb(233, 232, 232);
+        border-top-left-radius: 8px;
+        border-top-right-radius: 8px;
+    }
+
+    .up-nav button{
+        display: none;
+    }
+}
+
+@media (max-width:992px){
+    .top-nav .search input[type=text]{
+        display: none;
+    }
+
+    .top-nav {
+        padding: 0 !important;
+    }
+    .top-nav .navbar-toggler {
+        padding: 0;
+    }
+
+    .top-nav .icons .fa-heart {
+        display: none;
+    }
+    .top-nav .up-nav .icons i {
+        margin-right: 0;
+        padding: 5px;
+        font-size: 14px;
+    }
+
+    .top-nav .down-menu {
+        padding-top: 0;
+        
+    }
+
+    .top-nav .nav-link{
+        color: black;
+    }
+
+}
+
+
+
+
+/*---------------------------------------CAROUSEL SECTION-------------------------------*/
+
+.carousel-inner  img{
+    object-fit: cover;
+}
+
+/*----------------------------------------RANGE $ CELEBRITY SECTION------------------------------*/
+
+.price-range{
+    margin: 2rem 0;
+}
+
+.price-range .card-body{
+    padding: 0.7rem 0;
+}
+
+.price-range , .celebs img{
+    border-radius: 5px;
+}
+
+.celebs .rating {
+    font-size: 15px;
+}
+
+.celebs .card-text{
+    margin-bottom: 0.2rem;
+}
+
+.celebs del{
+    color: rgb(244, 163, 11);
+}
+.celebs i{
+    color: rgb(252, 33, 70);
+}
+
+.celebs button{
+    width: 12rem;
+    border-radius: 20px;
+    background-color: black;
+    color: white;
+}
+
+.celebs button:hover{
+    background-color: rgba(55, 53, 53, 0.898);
+    color: white;
+}
+
+@media (max-width:575px){
+    .thumbnails{
+        width: 50%;
+    }
+    .price-range p {
+        font-size: 12px;
+    }
+}
+
+/*------------------------------------EXPLORE SECTION-----------------------------*/
+.explore img{
+    height: 18rem;
+    object-fit:cover;
+    border-radius: 8px;
+}
+.explore {
+    margin-top: 5rem;
+}
+
+
+/*----------------------------------BOOKING SECTION----------------------*/
+.booking .container-fluid{
+    background: url("images/bg-1.png") no-repeat center;
+    background-size: cover;
+    padding: 5rem 0;
+    color: white;
+    ;
+}
+
+.booking button{
+    background-color: transparent;
+    color: white;
+    outline: none;
+    border: 1px solid white;
+    padding: 8px 20px;
+    /* width: 20rem; */
+    border-radius: 25px;
+}
+
+.booking button:hover{
+    color: black;
+    background-color: white;
+    transition: 0.3s ease-in-out;
+}
+
+/*------------------------------------FEATURE SECTION----------------------------*/
+
+
+.feature .carousel {
+    margin-top: 35px;
+}
+
+.feature .logo1{
+    background:url("images/logo-1.webp") no-repeat center ;
+    background-size:contain;
+}
+.feature .logo2{
+    background:url("images/logo-3.webp") no-repeat center ;
+    background-size: contain;
+}
+.feature .logo3{
+    background:url("images/logo-4.webp") no-repeat center ;
+    background-size: contain;
+}
+.feature .logo4{
+    background:url("images/logo-5.webp") no-repeat center ;
+    background-size: contain;
+}
+.feature .logo5{
+    background:url("images/logo-6.webp") no-repeat center ;
+    background-size: contain;
+}
+
+  .carousel-cell {
+    width: 40%;
+    height: 100px;
+    margin-right: 10px;
+    border-radius: 5px;
+    vertical-align: middle;
+  }
+  
+  .carousel-cell:before {
+    display: block;
+    text-align: center;
+  }
+
+
+  /*--------------------------------------POPULAR SECTION-----------------------*/
+  
+  .popular-section {
+      margin: 7rem 0;
+  }
+  
+  .popular-section a{
+    text-decoration: none;
+    color: grey;
+    font-size: 12px;
+   }
+.popular-section a:hover{
+    color: black;
+    text-decoration: underline;
+}
+
+
+  /*-------------------------------TESTIMONIAL SECTION--------------------------*/
+
+  .testimonial .card{
+      text-align: center ;
+      width: 15rem;
+    }
+
+  .testimonial .car{
+      overflow: hidden;
+  }
+  .testimonial h3{
+      background-color:#e6e6db ;
+      display: inline-block;
+      padding: 15px;
+      border-radius: 100%;
+      position: absolute;
+      /* bottom: 23%; */
+      left: 40%;
+      bottom: 35%;
+  }
+
+  .testimonial .card-text{
+      padding-top: 18px;
+  }
+  .testimonial .name{
+      font-size: 20px;
+      padding-top: 20px;
+  }
+
+  .testimonial .date{
+      font-size: 12px;
+  }
+
+  .testimonial .carousel{
+      height: 50%;
+  }
+
+  .testimonial .flickity-viewport [style] {
+      /* height: max-content !important; */
+      height: 700px;
+  }
+
+  .testimonial i{
+      color: #c20683;
+  }
+  
+  .testimonial .card:hover{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    transition: 0.1s ease-in-out;
+  }
+  @media (min-width:320px) and (max-width:480px){
+      .testimonial .card{
+          width: 9rem;
+      }
+
+      .testimonial h3{
+        left: 37%;
+        bottom: 60%;
+      }
+  }
+
+  @media (min-width:480px) and (max-width:768px){
+      .testimonial .card{
+          width: 11rem;
+      }
+
+      .testimonial h3{
+          bottom: 52%;
+      }
+  }
+
+  @media (min-width:769px)  {
+
+    .testimonial .card{
+        width: 20rem,;
+    }
+
+    .testimonial h3 {
+        bottom: 39%;
+    }
+
+    .testimonial .carousel-cell{
+        width: 34%;
+    }
+      
+  }
+
+  /*-----------------------------------------------------ABOUT SECTION---------------------------*/
+  .abt-section{
+    font-size: small;
+    color: rgb(90, 90, 90);
+}
+
+.abt-section .heading{
+    color: black;
+    font-weight: bold;
+    font-size: medium;
+}
+
+.abt-section h4{
+    color: black;
+}
+
+.abt-section span{
+    color: black;
+    font-weight: 600;
+}
+
+.abt-section .row{
+    margin-top: 5rem;
+}
+
+/*--------------------------------------------------------NEWSLETTER SECTION-------------------------------*/
+.newsletter{
+    padding: 100px 0;
+    background: url("images/bg-2.png") no-repeat center;
+    background-size: cover;
+    color: white;
+}
+.newsletter .email{
+    margin: 20px 0;
+}
+
+.newsletter .form-control{
+    width: 50%;
+    border-radius: 0;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+}
+
+.newsletter .input-group-text {
+
+   background-color: black;
+    border-radius: 0;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+
+.newsletter .email a{
+    color: white;
+}
+
+/*----------------------------------------------------------FOOTER SECTION---------------------------*/
+.foot-links{
+    background-color: rgb(133, 130, 130);
+    color: white;
+}
+
+.foot-links a{
+    text-decoration: none;
+    color: white;
+    
+}
+
+.foot-links ul{
+    padding-left: 0;
+}
+.foot-links p.context , li{
+    font-size: 14px;
+}
+
+.foot-links li{
+    list-style-type: none;
+    padding-left: 0;
+}
+
+.foot-links li a:hover{
+    text-decoration: underline;
+}
+
+.foot-last{
+    background-color: rgb(69, 68, 68);
+    padding: 10px;
+    
+}
+
+.foot-last  span { 
+    color: white;
+}
+
+.foot-last span:hover{
+
+    background-color: rgb(69, 68, 68) ;
+}
+.foot-last img{
+    width: 3rem;
+    height: 2rem;
+    padding-bottom: 0;
+    border-radius: 10px;
+}
+
+@media screen and (max-width:991px) {
+    .foot-last .copyright,.pay-img{
+        text-align: center;
+        margin: 5px;
+    }
+}

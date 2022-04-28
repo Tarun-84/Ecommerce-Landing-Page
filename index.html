@@ -1,0 +1,921 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!--BOOTSTRAP CDN-->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+  <!--CSS LINK-->
+  <link rel="stylesheet" href="style.css">
+
+
+  <!-- FONT AWESOME LINK -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+    integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+  <!-- FLICKITY CSS LINK-->
+  <link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css">
+
+  <title>Document</title>
+</head>
+
+<body>
+
+  <!----------------------------------------------------OFFER SECTION------------------------------------->
+  <section class="offer p-2">
+    <a href="">
+      <p class="justify-content-center">Flat 70% + 20% Off on all orders. SALE is live for 24 Hours Only!!!🎉</p>
+    </a>
+  </section>
+
+
+  <!----------------------------------------------------NAVBAR SECTION----------------->
+  <section class="top-nav px-2">
+    <div class="up-nav pt-2">
+      <div class="search">
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon">
+            <i class="fa-solid fa-bars"></i>
+          </span>
+        </button>
+        <i class="fa-solid fa-magnifying-glass"></i>
+        <input type="text" name="" id="" placeholder="Search">
+      </div>
+      <div class="logo">
+        <a href="#">
+          <h2>KARAGIRI</h2>
+        </a>
+      </div>
+      <div class="icons">
+        <i class="fa-solid fa-user"></i>
+        <i class="fa-solid fa-heart"></i>
+        <i class="fa-solid fa-cart-shopping"></i>
+      </div>
+    </div>
+
+    <nav class="navbar navbar-expand-lg down-menu">
+      <div class="container-fluid">
+        <div class="collapse navbar-collapse " id="navbarSupportedContent">
+          <ul class="navbar-nav mx-auto mb-2 mb-lg-0 ">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">SUMMER DRAPES</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown"
+                aria-expanded="false">
+                SAREES
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <li><a class="dropdown-item" href="#">Action</a></li>
+                <li><a class="dropdown-item" href="#">Another action</a></li>
+                <li>
+                  <hr class="dropdown-divider">
+                </li>
+                <li><a class="dropdown-item" href="#">Something else here</a></li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">FAST SHIPPING</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown"
+                aria-expanded="false">
+                WEDDING TALES
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <li><a class="dropdown-item" href="#">Action</a></li>
+                <li><a class="dropdown-item" href="#">Another action</a></li>
+                <li>
+                  <hr class="dropdown-divider">
+                </li>
+                <li><a class="dropdown-item" href="#">Something else here</a></li>
+              </ul>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown"
+                aria-expanded="false">
+                LEHNGAS
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <li><a class="dropdown-item" href="#">Action</a></li>
+                <li><a class="dropdown-item" href="#">Another action</a></li>
+                <li>
+                  <hr class="dropdown-divider">
+                </li>
+                <li><a class="dropdown-item" href="#">Something else here</a></li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">HAPPY CUSTOMERS</a>
+            </li>
+        </div>
+      </div>
+    </nav>
+  </section>
+
+  <!----------------------------BANNER SECTION----------------------------------->
+  <section class="banner">
+    <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel" data-bs-interval="3000">
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="images/caro-1.png" class="d-block w-100" alt="...">
+        </div>
+        <div class="carousel-item">
+          <img src="images/caro-2.png" class="d-block w-100" alt="...">
+        </div>
+        <div class="carousel-item">
+          <img src="images/caro-3.png" class="d-block w-100" alt="...">
+        </div>
+
+      </div>
+
+    </div>
+  </section>
+
+  <!----------------------PRICE RANGE------------------------->
+  <section class="price-range ">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-3 col-md-3 col-sm-6 col-xs-6  thumbnails">
+          <div class="card border-0 text-center">
+            <a href=""><img src="images/range-1.png" class="card-img-top" alt="..."></a>
+            <div class="card-body">
+              <p class="card-text">
+                <a href="">Affordable Prices On Amazing Designs !</a>
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-3 col-sm-6 col-xs-6 thumbnails">
+          <div class="card border-0 text-center">
+            <a href=""><img src="images/range-2.png" class="card-img-top" alt="..."></a>
+            <div class="card-body">
+              <p class="card-text">
+                <a href="">Beautiful Sarees, Amazing Prices </a>
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-3 col-sm-6 col-xs-6 thumbnails">
+          <div class="card border-0 text-center">
+            <a href=""><img src="images/range-3.png" class="card-img-top" alt="..."></a>
+            <div class="card-body">
+              <p class="card-text">
+                <a href="">Great Discounts This Wedding Season!</a>
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-3 col-sm-6 col-xs-6 thumbnails">
+          <div class="card border-0 text-center">
+            <a href=""><img src="images/range-4.png" class="card-img-top" alt="..."></a>
+            <div class="card-body">
+              <p class="card-text">
+                <a href="">Why Go Anywhere Else, KARAGIRI Has It All !</a>
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-----------------------------------CELEBRITY CHOICE--------------------------->
+  <section class="celebs text-center">
+    <h1>CELEBRITY CHOICE</h1>
+    <div class="container my-5">
+      <div class="row">
+        <div class="col-lg-3 col-md-3 col-sm-6 col-xs-6  thumbnails">
+          <div class="card border-0 text-center">
+            <a href=""><img src="images/celeb1.webp" class="card-img-top" alt="..."></a>
+            <div class="card-body">
+              <p class="card-text">
+                <a href="">
+                  ALIA BHATT in Pearl White Chikankari Saree
+                </a>
+
+              <div class="rating">
+                <del>₹ 19,774</del> &nbsp; ₹ 5,932 <br>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i> (11)
+              </div>
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-3 col-sm-6 col-xs-6 thumbnails">
+          <div class="card border-0 text-center">
+            <a href=""><img src="images/celeb2.webp" class="card-img-top" alt="..."></a>
+            <div class="card-body">
+              <p class="card-text">
+                <a href="">
+                  SHRUTI MARATHE in Chicago Blue Banarasi Saree
+                </a>
+
+              <div class="rating">
+                <del>₹ 25,877</del> &nbsp; ₹ 7,763 <br>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i> (7)
+              </div>
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-3 col-sm-6 col-xs-6 thumbnails">
+          <div class="card border-0 text-center">
+            <a href=""><img src="images/celeb3.webp" class="card-img-top" alt="..."></a>
+            <div class="card-body">
+              <p class="card-text">
+                <a href="">
+                  PAYAL GUPTA in Hot Pink Woven Banarasi Brocade Silk Saree
+                </a>
+
+              <div class="rating">
+                <del>₹ 24,072</del> &nbsp; ₹ 12,036 <br>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+              </div>
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-3 col-sm-6 col-xs-6 thumbnails">
+          <div class="card border-0 text-center">
+            <a href=""><img src="images/celeb4.webp" class="card-img-top" alt="..."></a>
+            <div class="card-body">
+              <p class="card-text">
+                <a href="">
+                  KAVITA GHAI in Irish Purple Banarasi Saree
+                </a>
+
+              <div class="rating">
+                <del>₹ 19,774</del> &nbsp; ₹ 5,932 <br>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+              </div>
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <button type="button" class="btn ">View All</button>
+    </div>
+  </section>
+
+  <!---------------------------------EXPLORE KARAGIRI--------------------------->
+  <section class="explore text-center">
+    <h1>EXPLORE KARAGIRI</h1>
+    <div class="container my-5">
+      <div class="row">
+        <div class="col-lg-3 col-md-3 col-sm-6 col-xs-6  thumbnails">
+          <div class="card border-0 text-center">
+            <a href=""><img src="images/saree-1.webp" class="card-img-top" alt="..."></a>
+            <div class="card-body">
+              <p class="card-text">
+                <a href="">
+                  BANARASI SAREE
+                </a>
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-3 col-sm-6 col-xs-6 thumbnails">
+          <div class="card border-0 text-center">
+            <a href=""><img src="images/saree-2.webp" class="card-img-top" alt="..."></a>
+            <div class="card-body">
+              <p class="card-text">
+                <a href="">
+                  PAITHANI SAREE
+                </a>
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-3 col-sm-6 col-xs-6 thumbnails">
+          <div class="card border-0 text-center">
+            <a href=""><img src="images/saree-3.webp" class="card-img-top" alt="..."></a>
+            <div class="card-body">
+              <p class="card-text">
+                <a href="">
+                  KANJIVARAN SAREE
+                </a>
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-3 col-sm-6 col-xs-6 thumbnails">
+          <div class="card border-0 text-center">
+            <a href=""><img src="images/saree-4.webp" class="card-img-top" alt="..."></a>
+            <div class="card-body">
+              <p class="card-text">
+                <a href="">
+                  PATOLA SAREE
+                </a>
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-lg-3 col-md-3 col-sm-6 col-xs-6  thumbnails">
+          <div class="card border-0 text-center">
+            <a href=""><img src="images/saree-5.webp" class="card-img-top" alt="..."></a>
+            <div class="card-body">
+              <p class="card-text">
+                <a href="">
+                  COTTON SAREE
+                </a>
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-3 col-sm-6 col-xs-6 thumbnails">
+          <div class="card border-0 text-center">
+            <a href=""><img src="images/saree-6.webp" class="card-img-top" alt="..."></a>
+            <div class="card-body">
+              <p class="card-text">
+                <a href="">
+                  ORGANZA SAREE
+                </a>
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-3 col-sm-6 col-xs-6 thumbnails">
+          <div class="card border-0 text-center">
+            <a href=""><img src="images/saree-7.webp" class="card-img-top" alt="..."></a>
+            <div class="card-body">
+              <p class="card-text">
+                <a href="">
+                  BRASSO SAREE
+                </a>
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-3 col-sm-6 col-xs-6 thumbnails">
+          <div class="card border-0 text-center">
+            <a href=""><img src="images/saree-8.webp" class="card-img-top" alt="..."></a>
+            <div class="card-body">
+              <p class="card-text">
+                <a href="">
+                  MADHUBANI SAREE
+                </a>
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!--------------------------------------BEST SELLERS------------------------------->
+  <section class="celebs text-center">
+    <h1>BEST SELLER</h1>
+    <div class="container my-5">
+      <div class="row">
+        <div class="col-lg-3 col-md-3 col-sm-6 col-xs-6  thumbnails">
+          <div class="card border-0 text-center">
+            <a href=""><img src="images/celeb4.webp" class="card-img-top" alt="..."></a>
+            <div class="card-body">
+              <p class="card-text">
+                <a href="">
+                  Wine Purple Woven Kanjivaram Saree - Special Wedding Edition
+                </a>
+
+              <div class="rating">
+                <del>₹ 19,774</del> &nbsp; ₹ 5,932 <br>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i> (11)
+              </div>
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-3 col-sm-6 col-xs-6 thumbnails">
+          <div class="card border-0 text-center">
+            <a href=""><img src="images/celeb1.webp" class="card-img-top" alt="..."></a>
+            <div class="card-body">
+              <p class="card-text">
+                <a href="">
+                  Wine Purple Woven Kanjivaram Saree - Special Wedding Edition
+                </a>
+
+              <div class="rating">
+                <del>₹ 25,877</del> &nbsp; ₹ 7,763 <br>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i> (7)
+              </div>
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-3 col-sm-6 col-xs-6 thumbnails">
+          <div class="card border-0 text-center">
+            <a href=""><img src="images/celeb2.webp" class="card-img-top" alt="..."></a>
+            <div class="card-body">
+              <p class="card-text">
+                <a href="">
+                  Beautiful Peacock Blue Cotton Linen Saree
+                </a>
+
+              <div class="rating">
+                <del>₹ 24,072</del> &nbsp; ₹ 12,036 <br>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+              </div>
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-3 col-sm-6 col-xs-6 thumbnails">
+          <div class="card border-0 text-center">
+            <a href=""><img src="images/celeb1.webp" class="card-img-top" alt="..."></a>
+            <div class="card-body">
+              <p class="card-text">
+                <a href="">
+                  Deep Pink Woven Kanjivaram Saree - Special Wedding Edition
+                </a>
+
+              <div class="rating">
+                <del>₹ 19,774</del> &nbsp; ₹ 5,932 <br>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+              </div>
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <button type="button" class="btn ">View All</button>
+    </div>
+  </section>
+
+  <!-------------------------------------------------BOOKING SECTION-------------------------->
+  <section class="booking">
+    <div class="container-fluid text-center">
+      <div class="text">
+        <h2>Meet Our Stylist</h2>
+        <p>Our Fashion stylists and designers are now available to help you on a Click.</p>
+        <button type="button" class="btn btn-outline-secondary">Book Your Appointment Now.</button>
+      </div>
+    </div>
+  </section>
+
+
+  <!-----------------------------------------------FEATURE SECTION-------------------------->
+
+  <section class="feature my-5">
+    <div class="container text-center ">
+      <h1>FEATURED IN</h1>
+      <div class="carousel up-container" data-flickity='{ "wrapAround": true , "prevNextButtons": false }'>
+        <div class="carousel-cell logo1">
+        </div>
+        <div class="carousel-cell logo2">
+        </div>
+        <div class="carousel-cell logo3">
+        </div>
+        <div class="carousel-cell logo4">
+        </div>
+        <div class="carousel-cell logo5">
+        </div>
+      </div>
+    </div>
+
+  </section>
+
+
+  <!----------------------------------POPULAR SEARCHES------------------------------->
+
+  <div class="popular-section ">
+    <div class="row text-center justify-content-center pt-3">
+      <div class="col-lg-5 ">
+        <h3 class="text-uppercase">popular searches</h3>
+        <a href="">paithani sarees</a> | <a href="">paithani sarees</a> | <a href="">paithani sarees</a> | <a
+          href="">paithani sarees</a> | <a href="">paithani sarees</a> | <a href="">paithani sarees</a> | <a href="">paithani
+          sarees</a> | <a href="">paithani sarees</a> | <a href="">paithani sarees</a> | <a href="">paithani sarees</a> | <a
+          href="">paithani sarees</a> | <a href="">paithani sarees</a> | <a href="">paithani sarees</a> | <a
+          href="">paithani sarees</a> | <a href="">paithani sarees</a> | <a href="">paithani sarees</a> | <a href="">paithani
+          sarees</a> | <a href="">paithani sarees</a>
+        <a href="">paithani sarees</a> | <a href="">paithani sarees</a> | <a href="">paithani sarees</a> | <a
+          href="">paithani sarees</a> | <a href="">paithani sarees</a> | <a href="">paithani sarees</a> |
+      </div>
+    </div>
+  </div>
+
+
+
+
+  <!------------------------------------TESTIMONIAL SECTION------------------------------->
+  <section class="testimonial">
+    <div class="container">
+      <div class="carousel " data-flickity='{ "wrapAround": true , "prevNextButtons": false , "groupCells": 2}'>
+        <div class="carousel-cell custom-1">
+          <div class="card ">
+            <img src="https://images.loox.io/uploads/2021/11/15/Nk9J8BiPj.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h3>SS</h3>
+              <p class="card-text">
+                <span class="name">Shivani S.</span> <br>
+                <span class="date">1/20/2022</span> <br>
+              <div class="review">
+                Wore this lovely red saree with a woollen skivi for a winter morning function. Looked elegant and...
+              </div> <br>
+              <div class="rating">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+              </div>
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="carousel-cell custom-2">
+          <!-- <img src="images/logo-3.webp" alt="" srcset=""> -->
+          <div class="card ">
+            <img src="https://images.loox.io/uploads/2022/1/20/NJ08MwGaj.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h3>SS</h3>
+              <p class="card-text">
+                <span class="name">Shivani S.</span> <br>
+                <span class="date">1/20/2022</span> <br>
+              <div class="review">
+                Wore this lovely red saree with a woollen skivi for a winter morning function. Looked elegant and...
+              </div> <br>
+              <div class="rating">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+              </div>
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="carousel-cell custom-3">
+          <!-- <img src="images/logo-4.webp" alt="" srcset=""> -->
+          <div class="card ">
+            <img src="https://images.loox.io/uploads/2021/12/2/VknpSr-Fo.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h3>SS</h3>
+              <p class="card-text">
+                <span class="name">Shivani S.</span> <br>
+                <span class="date">1/20/2022</span> <br>
+              <div class="review">
+                Wore this lovely red saree with a woollen skivi for a winter morning function. Looked elegant and...
+              </div> <br>
+              <div class="rating">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+              </div>
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="carousel-cell custom-4">
+          <!-- <img src="images/logo-5.webp" alt="" srcset=""> -->
+          <div class="card ">
+            <img src="https://images.loox.io/uploads/2021/11/1/VJC2FmYIi.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h3>SS</h3>
+              <p class="card-text">
+                <span class="name">Shivani S.</span> <br>
+                <span class="date">1/20/2022</span> <br>
+              <div class="review">
+                Wore this lovely red saree with a woollen skivi for a winter morning function. Looked elegant and...
+              </div> <br>
+              <div class="rating">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+              </div>
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="carousel-cell custom-5">
+          <!-- <img src="images/logo-6.webp" alt="" srcset=""> -->
+          <div class="card ">
+            <img src="https://images.loox.io/uploads/2021/7/23/V1V_lfXCq.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h3>SS</h3>
+              <p class="card-text">
+                <span class="name">Shivani S.</span> <br>
+                <span class="date">1/20/2022</span> <br>
+              <div class="review">
+                Wore this lovely red saree with a woollen skivi for a winter morning function. Looked elegant and...
+              </div> <br>
+              <div class="rating">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+              </div>
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-------------------------------------------------------------ABOUT SECTION-------------------------------->
+  <div class="container abt-section">
+    <di class="row">
+      <div class="col-lg-12">
+        <p class="heading">The best online saree shopping store from India</p>
+        <p>KARAGIRI is a well know brand from India, we are known as " The Best Fashion clothing brand for women."
+          Here in India, there are many artisans and weavers who are not known to the world, we are working with those
+          weavers to help them to know worldwide through KARAGIRI. The Indian traditional saree is gaining acceptance
+          all over the world. Being unstitched, sarees suit all body types and comes for office wear sarees, casual
+          sarees, festive sarees, traditional saree, and wedding wear saree avatars. <br> <br>
+
+          KARAGIRI has its finger on the pulse of the saree lover and brings you an end-to-end range of sarees in all
+          types of fabric: cotton saree, silk saree, chiffon saree, georgette saree, crepe sarees, art silk saree, net
+          saree, and blended silk saree. You can search using filters to narrow down your choices. <br> <br>
+
+          Celebrities from Bollywood, many business tycoons, tinsel town divas, upcoming models, and Instagram
+          influencers are now the trusted customers of ‘KARAGIRI' as they get to shop for their best attires or
+          outfits from an Indian brand in the most elegant and glamorous styles.You ask for many types of collections
+          like designer sarees for wedding, silk sarees for wedding, banarasi saree, paithani saree, kanjivaram or
+          kanjeevaram saree, satin saree, bridal lehengas, or a whole new range of Indian wedding saree collection, we
+          are with you to choose your best bridal wear on your special day, any time of the year. <br> </p>
+
+        <p class="heading">
+          Why a saree?
+        </p>
+        <p class="content">
+          Saree is a traditional Indian outfit from India that is worn by women of different ages, be it a college
+          girl for her farewell party, a working lady for her office, or a housewife for festivals and weddings. The
+          charm of the wedding sarees is increasing day by day due to their sensual appeal and aura that truly
+          transform an Indian woman into a gorgeous diva. An Indian woman looks beautiful in a sari and on a special
+          occasion like festivals, parties, or weddings, it is the attire that takes the center stage and the
+          limelight is upon you. <br> <br>
+
+          KARAGIRI with its many years of experience in designing and weaving various types of Indian sarees,
+          traditional sarees, designer sarees for wedding, bridal blouse design, blouse net design and offers the best
+          designer sarees collection who have an understanding and liking for gorgeous Indian clothing and ethnic
+          Indian.
+        </p>
+
+        <p class="heading">
+          How to wear a saree?
+        </p>
+        <p class="content">
+          Traditionally, the saree was worn by draping it lengthwise around the body, creating many different layers
+          and pleats. It is wrapped around an undergarment known as the “petticoat” or "silhouette", which is fastened
+          around the waist, and a blouse, which is trimmed above the waist, leaving the midriff visible. This whole
+          ensemble is collectively known as a saree or a traditional Indian saree. <br> <br>
+
+          In India, there are more than 80 different ways to drape a saree with a beautiful blouse piece with a neck
+          design, simple design. This diversity of draping style is simple due to the diverse cultural heritage of
+          India, where every caste, tribe, creed, and communities have their own style of draping a saree.
+        </p>
+
+        <p class="heading">
+          The unique collection of sarees online By KARAGIRI.
+        </p>
+
+        <p class="content">
+          What makes up for a lovely saree wardrobe? According to us, the ideal saree closet is only ideal if trends
+          are in perfect harmony with tradition and that is what we aim to achieve at KARAGIRI in our closet
+          collections with all different types of sarees like banarasi, kanjivaram, paithani and that is host to
+          varied trendy styles such as zari work, multi-colored charmers, lace work wonders, half-half drapes, and
+          beautiful printed patterns. Not to mention, our traditional sarees wrap in embroidery work, patola, banarasi
+          silk from banaras, kanjivaram sarees, and so on! <br><br>
+
+          Now lets talk colours, since time immemorial, Indian ethnic fashion is known for its lively hues that
+          instantly make for a head-turning outfit for every beautiful woman. Keeping this very amazing tradition in
+          our mind, Karagiri sarees online is in harmony with trending colours of the season like -black color saree,
+          pink saree, royal blue saree, red saree, and many more. <br> <br>
+        </p>
+
+        <h4>
+          Buy the best trending and traditional sarees collection from KARAGIRI
+          <br> <br>
+        </h4>
+        <p class="heading">
+          Listed below are some of the best types of sarees available online:
+        </p>
+        <p class="content">
+          Best Banarasi Saree Online On Karagiri – <span>BEST TRADITIONAL WEAR THAT WILL NEVER FAIL YOU</span> <br>
+          <br>
+
+          When you think of a festive celebration or traditional sari, the first saree that pops in your mind is the
+          beautiful banarasi saree with zari work and heavy silken border. Not only is it one of the most time-tested
+          traditional saree available to us, but it also reminds us of all the good times we have spent with our
+          family and friends on gala occasions and parties. As we have all been told by our mothers or grandparents
+          about the importance of having a good banarasi saree or two in our closet for important occasions and we
+          have noted to their words until actually seeing for ourselves just how ethereal these sarees were. <br>
+
+          We at KARAGIRI always believe in reinventing the timeless, and always come up with the good, better to the
+          best wearable, and affordable fashion options for you. This is why we always update our collection and try
+          to bring all-new or latest banarasi sarees. The best decisions can only be made when one is given unlimited
+          options and choices, and so is the case with our banarasi silk sarees range too. We ensure that we only
+          offer you completely genuine products – buy a banarasi saree online on Karagiri today!
+        </p>
+
+        <p class="heading">
+          The Best Kanjivaram or kanjeevaram sarees online on KARAGIRI
+        </p>
+        <p class="content">
+          Do you remember the first saree you ever wore! Was it an heirloom passed on to you by your grandmother or
+          mother? Did you go shopping at the local saree store with your loved ones? Or have you not experienced the
+          beautiful traditional raiment yet? Whatever your preferences or likes, there is always a saree that
+          perfectly fits your closet needs. You do not have to break the bank to get a beautiful nine-yard saree. Just
+          leave it on us, to bring you the best possible ethnic wear to flaunt at all traditional soirees like
+          weddings, festive occasions, and other events. <br><br>
+
+          Every Indian woman has a beautiful collection of sarees that holds a very special place in her heart. We at
+          KARAGIRI know what gets you delighted when it comes to a pure traditional saree, and we always bring to you
+          our brand-new and latest kanjeevaram sarees online collection. Say a forever goodbye to long queues at
+          bustling saree shops and their sales executives who are too busy to tend you. Buy a Kanjivaram saree online
+          only on KARAGIRI before our stocks vanish! <span>SO WHAT ARE YOU WAITING FOR </span>
+        </p>
+
+        <p class="heading">
+          Rules to find the perfect blouse for your saree
+        </p>
+        <p class="content">
+          Whether you are going with a fashionable saree blouse design or plain saree blouse design, some major rules
+          will always help you to choose the best blouse designs. So here are some important rules that you should
+          always keep in mind while wearing a saree for a wedding, festivals, or any other occasions: <br> <br>
+
+          - Fit and Cut: Make sure you always choose your blouse in the right fit for you. It should never be too
+          tight or too loose. Also, focus on your neck length of your blouse, sleeve-fitting blouse designs, bodice
+          length blouse, and waist fitting blouse. <br> <br>
+
+          - Body type and comfort: Always make sure that you choose a blouse as per your body type. You are lucky that
+          we have many different types of blouse designs like halter-neck blouse, sheer-back blouse, high-neck blouse,
+          and many more are available on KARAGIRI. You can choose what blouse type makes you comfortable and
+          confident. <br> <br>
+        </p>
+
+        <p class="heading">
+          Buy Saree Online on Karagiri!
+        </p>
+        <p class="content">
+          Karagiri is the best Silk Saree store of India and one Stop Destination for Designer silk Sarees. Karagiri
+          is one of the prominent and trust-worthy E-commerce platforms to buy sarees online. We offer unique designs
+          and beautiful sarees at the best price. Check out our collection of raw silk blouses if you are looking for
+          some ideas on Silk saree blouse designs. We have wide selection of banarasi silk saree, cotton silk saree,
+          soft silk sarees, kanchipuram silk sarees, kanjivaram silk saree, mysore silk sarees and paithani silk
+          sarees. We have great collection of silk sarees for wedding. From the latest collection to traditional
+          sarees, we have everything for you. We have an easy exchange and return policy if you are not satisfied with
+          the ordered saris. You can even submit your complaints at help@karagiri.com and we revert to you within 24
+          hours. Come, Be part of Karagiri family and lets have loads of fun!
+        </p>
+      </div>
+    </di>
+  </div>
+
+
+  <!-------------------------------------------------NEWSLETTER SECTION------------------------------>
+  <section class="newsletter">
+    <div class="container fluid">
+      <div class="row text-center">
+        <div class="col">
+          <h1>Get an EXCLUSIVE discount in your email!</h1>
+          <span>Join KARAGIRI family now and receive exclusive coupons and special offers in your inbox!</span>
+          <div class="input d-flex justify-content-center email">
+            <input type="text" class="form-control " placeholder="Enter Your Email Address" >
+            <span class="input-group-text " id="">
+              <a href="">
+                JOIN
+              </a>
+            </span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!---------------------------------------------FOOTER SECTION--------------------------------->
+  <div class="container-fluid pt-5 foot-links">
+    <div class="row">
+      <div class="col-lg-3">
+        <p class="heading"> WELCOME TO KARAGIRI !</p>
+        <p class="context"> The most trusted saree store from India! With more than 10,000+ saree designs, we proudly
+          flaunt our Indian heritage in a contemporary way! If you love sarees, Karagiri is your one-stop destination
+          and if not, then you must try KARAGIRI once!</p>
+      </div>
+      <div class="col-lg-3">
+        <p>POPULAR SEARCHES</p>
+        <ul>
+          <li><a href="">Wedding Collection</a></li>
+          <li><a href="">Banarasi Saree</a></li>
+          <li><a href="">Kanjivaram Saree</a></li>
+          <li><a href="">Paithani Saree/a></li>
+          <li><a href="">Linen Saree</a></li>
+        </ul>
+      </div>
+      <div class="col-lg-3">
+        <p class="heading">QUICK LINKS</p>
+        <ul>
+          <li><a href="">About Us</a></li>
+          <li><a href="">Contact Us</a></li>
+          <li><a href="">Media</a></li>
+          <li><a href="">FAQs / Help</a></li>
+          <li><a href="">Karagiri Heritage</a></li>
+          <li><a href="">Blogs</a></li>
+          <li><a href="">Track Your Order</a></li>
+        </ul>
+      </div>
+      <div class="col-lg-3">
+        <p class="head">CUSTOMER SERVICE</p>
+        <ul>
+          <li><a href="">Shipping Policy</a></li>
+          <li><a href="">Privacy Policy</a></li>
+          <li><a href="">Returns & Exchange Policy</a></li>
+          <li><a href="">Return order</a></li>
+          <li><a href="">Terms & Conditions</a></li>
+          <li><a href="">Sitemap</a></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+
+  <div class="foot-last  ">
+    <div class="container-fluid ">
+      <div class="row  ">
+
+        <div class="col-lg-6 copyright  ">
+          
+          <span class="align-middle">© 2022 Karagiri</span>
+        </div>
+
+        <div class="col-lg-6 text-end">
+          <div class="pay-img ">
+            <img src="images/payment.webp" alt="" srcset="">
+            <img src="images/payment.webp" alt="" srcset="">
+            <img src="images/payment.webp" alt="" srcset="">
+            <img src="images/payment.webp" alt="" srcset="">
+            <img src="images/payment.webp" alt="" srcset="">
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+
+
+
+
+
+
+  <!--BOOTSTRAP CDN-->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+    crossorigin="anonymous"></script>
+
+  <!--Flickity JS Link-->
+  <script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
+
+  <!--JQUERY LINK-->
+  <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+</body>
+
+</html>
